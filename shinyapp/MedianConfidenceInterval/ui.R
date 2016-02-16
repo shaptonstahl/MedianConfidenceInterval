@@ -23,7 +23,7 @@ shinyUI(
                            'Double Quote'='"',
                            'Single Quote'="'"),
                          '"'),
-            textInput("column", "Column in file", value="1")
+            textInput("column", "Column in file (number or name)", value="1")
           ),
           tabPanel("Confidence Interval",
             sliderInput("conf.out.of.100", "Confidence level:", 
